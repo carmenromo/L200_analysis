@@ -1,0 +1,13 @@
+{
+    "ORFlashCamWaveformDecoder" : {
+      "ch1104000/raw" : { "key_list" : [1104000], "out_stream" : "{out}" },
+      "ch1104001/raw" : { "key_list" : [1104001], "out_stream" : "{out}" },
+      "ch{key:07d}/raw": { "key_list" : [[1052802,1052805],[1054400,1054405],[1056000,1056005],[1057600,1057605],[1059200,1059205],[1060800,1060805],[1062400,1062405],[1064000,1064005],[1065600,1065605],[1067200,1067205]], "out_stream" : "{out}" }
+    },
+    "OrcaHeaderDecoder" : {
+      "OrcaHeader" : {
+        "key_list" : [ "*" ],
+        "out_stream" : "{out}"
+      }
+    }
+  }
