@@ -14,10 +14,9 @@ out_dir   = sys.argv[6]
 file_format = "l200-{period}-{run}-{data_type}-{datetime}.orca.gz"
 
 print(run, in_dir, out_dir)
-it = os.scandir(in_dir)
 
 f_parse  = parse(file_format, filename)
-if not f_parse: continue
+#if not f_parse: continue
 out_file = out_dir + 'raw_wf_' + f_parse['datetime']  + '.lh5'
 
 build_raw(in_file,
