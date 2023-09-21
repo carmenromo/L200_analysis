@@ -23,7 +23,6 @@ elif ifiles_format=="fcio":
     in_stream_type = "FlashCam"
 else:
     print(f"Input files format {ifiles_format} not recognized!")
-    break
 
 print(run, in_dir, out_dir)
 
